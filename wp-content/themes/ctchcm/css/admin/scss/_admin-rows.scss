@@ -1,0 +1,92 @@
+.row-one-column {
+    margin: 1rem 1rem 0.8rem;
+}
+
+.row-two-column {
+    height: 2rem;
+    margin: 1rem 1rem 2rem;
+    display: flex;
+    flex-direction: row;
+    width: 92.5%;
+    .col {
+        width: 50%;
+    }
+}
+
+.row-three-column {
+    height: 2rem;
+    margin: 1rem 1rem 2rem;
+    .col {
+        float: left;
+        width: 31.1%;
+    }
+}
+
+.row-four-column {
+    height: 2rem;
+    margin: 1rem 1rem 2rem;
+    .col {
+        float: left;
+        width: 23.1%;
+    }
+}
+
+.row-five-column {
+    height: 2rem;
+    margin: 1rem 1rem 2rem;
+    .col {
+        float: left;
+        width: 18%;
+    }
+}
+
+.cell-title {
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.2rem;
+}
+
+.cell-text {
+    .my-input {
+        height: 1.5rem;
+        width: 90%;
+        border-radius: 0.3rem;
+    }
+}
+
+.radio-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+    input[type="radio"] {
+        margin-left: 4rem;
+        margin-right: 0.3rem;
+    }
+}
+
+.btn-add-space {
+    clear: both;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+    margin-top: 5rem;
+}
+
+.radio-space {
+    display: flex;
+    div {
+        margin: 1rem;
+        width: 5rem;
+        label {
+            font-weight: bold;
+        }
+    }
+}
+
+.button-space {
+    text-align: right;
+    padding-right: 15%;
+    padding-top: 1rem;
+}

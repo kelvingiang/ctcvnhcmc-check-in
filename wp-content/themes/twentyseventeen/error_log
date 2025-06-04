@@ -1,0 +1,48 @@
+[18-Aug-2018 19:59:30 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[18-Aug-2018 22:16:03 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[18-Aug-2018 23:58:04 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[21-Aug-2018 21:39:33 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[29-Aug-2018 08:55:13 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[29-Aug-2018 15:35:21 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[16-Oct-2018 02:53:11 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[18-Oct-2018 13:04:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[22-Oct-2018 21:52:32 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[07-Dec-2018 14:47:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[08-Dec-2018 18:24:02 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[08-Dec-2018 21:28:08 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[12-Dec-2018 17:41:05 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[22-Dec-2018 02:24:26 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[01-Jan-2019 15:32:10 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[19-Oct-2019 23:54:35 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[22-Oct-2019 19:04:47 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[22-Oct-2019 19:04:54 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[22-Oct-2019 19:05:01 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[22-Oct-2019 19:05:31 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[05-Nov-2019 22:09:55 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[12-Dec-2019 23:00:20 UTC] PHP Notice:  Undefined index: wp_version in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[12-Dec-2019 23:00:20 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[13-Dec-2019 00:22:26 UTC] PHP Notice:  Undefined index: wp_version in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[13-Dec-2019 00:22:26 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[07-Apr-2020 02:56:53 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[03-Jun-2020 05:34:31 UTC] PHP Notice:  Undefined index: wp_version in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[03-Jun-2020 05:34:31 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[04-Dec-2020 07:01:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[25-Dec-2020 20:52:23 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[28-Dec-2020 07:40:40 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[30-Dec-2020 00:02:13 UTC] PHP Notice:  Undefined index: wp_version in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[30-Dec-2020 00:02:13 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[30-Dec-2020 00:03:00 UTC] PHP Notice:  Undefined index: wp_version in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[30-Dec-2020 00:03:00 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[02-Jan-2021 23:41:48 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[02-Jan-2021 23:41:52 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[07-Jan-2021 07:02:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/index.php on line 18
+[11-Jan-2021 13:28:57 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[27-Feb-2021 12:28:03 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[20-Apr-2021 15:03:38 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[24-Aug-2021 04:25:20 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[01-Sep-2021 22:27:13 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[26-Sep-2021 02:46:58 UTC] PHP Fatal error:  Call to undefined function get_template_part() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[27-Sep-2021 05:55:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[02-Oct-2021 22:44:22 UTC] PHP Notice:  Undefined index: wp_version in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/functions.php on line 15
+[02-Oct-2021 22:44:22 UTC] PHP Fatal error:  Call to undefined function get_template_directory() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[12-Oct-2021 08:39:17 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/ctcvnhcm/public_html/wp-content/themes/twentyseventeen/404.php on line 13
