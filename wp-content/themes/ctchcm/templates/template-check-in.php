@@ -28,7 +28,8 @@ $event = $model->getActiveItem();
 
         <div class="check_result">
             <div id="waiting-main">
-                <h3><?php echo get_option('_waiting_text') ?>開始報到</h3>
+                <h2><?php echo get_option('_waiting_text') ?></h2>
+                <h3>開始報到</h3>
             </div>
             <div id="barcode-error">條碼不正確!</div>
             <div id="barcode-not-active">會員還沒啟動!</div>
