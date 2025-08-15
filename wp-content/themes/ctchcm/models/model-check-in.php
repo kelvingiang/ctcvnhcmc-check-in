@@ -71,7 +71,7 @@ class Model_Check_In extends WP_List_Table
             'fullname' => '姓名',
             'company' => '公司',
             'position' => '職稱',
-            'phone' => '電話',
+            // 'phone' => '電話',
             'barcode' => '條碼',
             'email' => 'email',
             'checkin' => '報到',
