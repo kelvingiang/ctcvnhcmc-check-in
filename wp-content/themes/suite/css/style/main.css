@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "DFKai";
   src: url("../../fonts/kaiu.ttf") format("woff2");
@@ -23,38 +24,40 @@
 .check_in_header {
   display: flex;
   flex-direction: row;
-  height: 200px;
-  background-image: linear-gradient(to bottom right, rgb(253, 253, 253), rgb(1, 91, 151));
+  background-color: rgb(1, 91, 151);
   position: relative;
 }
 .check_in_header .logo-space {
   position: absolute;
-  top: 40px;
-  left: 50px;
-  width: 130px;
+  top: 10px;
+  left: 30px;
+  width: 100px;
 }
-.check_in_header > div {
+.check_in_header .header-text {
   text-align: center;
-  color: #fff;
   display: flex;
   flex-direction: column;
   align-content: center;
   width: 100%;
 }
-.check_in_header > div h1 {
-  margin-top: 50px;
+.check_in_header .header-text .header-label-title {
+  margin-top: 10px;
   font-weight: bold;
-  font-size: 4.5rem;
+  font-size: 5rem;
   font-family: "DFKai";
   letter-spacing: 3px;
-  text-shadow: 5px 5px 5px #333;
+  background: linear-gradient(45deg, #f6b503 30%, #f9f2e0 50%, #f6b503 60%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
-.check_in_header > div h2 {
+.check_in_header .header-text .header-label-event {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: -3px;
   font-family: "DFKai";
   text-shadow: 5px 5px 5px #333;
+  color: #ffffff;
 }
 .check_in_content {
   width: 100%;
@@ -62,35 +65,17 @@
   margin: auto;
   display: flex;
   flex-direction: row;
-  padding: 1rem;
 }
 .check_in_content .check_from {
-  width: 350px;
+  width: 450px;
   text-align: center;
   border-right: 1px #ccc dotted;
-  position: relative;
 }
 .check_in_content .check_from > div {
   margin: 1rem 0;
 }
-.check_in_content .check_from .check-form-input {
-  padding: 1rem;
-  display: flex;
-  flex-direction: row;
-  border-radius: 3px;
-}
-.check_in_content .check_from .check-form-input input[type=text] {
-  width: 100%;
-  height: 30px;
-}
-.check_in_content .check_from .check-form-input .btn-submit-barcode {
-  letter-spacing: 2px;
-  font-weight: bold;
-  border: 2px;
-  padding: 3px 15px;
-  position: absolute;
-  right: 12px;
-  top: 22px;
+.check_in_content .check_from {
+  position: relative;
 }
 .check_in_content .check_from #last-check-in {
   color: #ccc;
@@ -103,7 +88,7 @@
 }
 .check_in_content .check_from .digiwin_space label {
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   font-family: "DFKai";
   letter-spacing: 5px;
@@ -119,13 +104,28 @@
   background-repeat: no-repeat;
   background-size: 500px 450px;
   background-position: 100% 120%;
-  opacity: 0.08;
+  opacity: 0.3;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: -1;
+}
+.check_in_content .check_result .check-in-success {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: green;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 3rem 0;
+}
+.check_in_content .check_result .check-in-success svg {
+  width: 30px;
+  fill: green;
+  margin-right: 3px;
 }
 .check_in_content .check_result #waiting-main {
   position: absolute;
@@ -168,35 +168,115 @@
 }
 .check_in_content .check_result #guest-main {
   display: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Noto Sans TC", Arial, Helvetica, sans-serif;
+  min-height: 550px;
+  margin: 2rem 3rem;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px #6a6a6a;
+  border: 5px solid transparent;
+  padding: 1rem;
+  /* Gộp tất cả vào thuộc tính background */
+  background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.1)) padding-box, linear-gradient(0deg, rgba(152, 151, 151, 0.6901960784), rgba(255, 255, 255, 0.5411764706)) border-box;
 }
 .check_in_content .check_result #guest-main .name-space {
   display: flex;
   flex-direction: row;
-  height: 80px;
-  margin-bottom: 20px;
-  margin-top: 30px;
 }
 .check_in_content .check_result #guest-main .name-space #guest_company {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: bolder;
-  text-transform: uppercase;
-  text-shadow: 5px 5px 5px rgb(131, 131, 131);
+  text-transform: capitalize;
   color: rgb(1, 91, 151);
-  margin: auto;
+  margin: 2rem auto 4rem;
 }
 .check_in_content .check_result #guest-main .guest-info {
   display: flex;
   flex-direction: row;
-  font-size: 16px;
   font-weight: bold;
+  border-bottom: 1px dotted #0043a4;
   min-height: 50px;
-  padding-left: 50px;
+}
+.check_in_content .check_result #guest-main .guest-info div {
+  justify-content: center;
+  align-content: center;
+  font-size: 2.5rem;
+  padding: 5px 20px;
 }
 .check_in_content .check_result #guest-main .guest-info div:nth-child(1) {
-  color: #666;
-  margin-right: 5px;
+  margin-right: 3px;
+  width: 180px;
+  color: rgb(1, 91, 151);
+  background-color: #f2f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  opacity: 0.5;
+}
+.check_in_content .check_result #guest-main .guest-info div:nth-child(1) svg {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  fill: rgb(1, 91, 151);
 }
 .check_in_content .check_result #guest-main .guest-info div:nth-child(2) {
-  color: rgb(1, 91, 151);
+  background-color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+  color: #a4a4a4;
+}
+
+/* Container bọc ngoài để giữ thanh input gọn gàng */
+.search-box {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px; /* Bo góc hiện đại */
+  padding: 4px;
+  width: 90%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04); /* Đổ bóng nhẹ tinh tế */
+  transition: all 0.3s ease;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Hiệu ứng khi người dùng click vào ô nhập liệu */
+.search-box:focus-within {
+  border-color: #0483b9; /* Đổi màu viền chủ đạo */
+  box-shadow: 0 2px 8px rgba(0, 82, 204, 0.15); /* Glow nhẹ */
+}
+
+/* Style cho ô Input */
+.search-input {
+  border: none;
+  outline: none;
+  padding: 10px 2px;
+  font-size: 15px;
+  color: #333333;
+  width: 100%; /* Bạn có thể tăng giảm tùy layout */
+  background: transparent;
+}
+
+.search-input::placeholder {
+  color: #a0a0a0;
+}
+
+/* Style cho nút Gửi (提交) */
+.search-btn {
+  background-color: #0052cc; /* Màu xanh công nghệ, hiện đại */
+  color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 6px; /* Bo góc đồng bộ */
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Hiệu ứng hover và click cho nút */
+.search-btn:hover {
+  background-color: #0043a4; /* Tối hơn một chút khi hover */
+}
+
+.search-btn:active {
+  transform: scale(0.98); /* Hiệu ứng nhấn nút nhẹ */
 }

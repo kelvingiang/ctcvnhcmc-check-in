@@ -431,7 +431,6 @@ a {
   border-radius: 5px;
   cursor: pointer;
   width: auto;
-  width: -moz-fit-content;
   width: fit-content;
   opacity: 0.8;
   background-color: #2b5fa3;
